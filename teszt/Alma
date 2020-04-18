@@ -1,0 +1,40 @@
+
+from builtins import print
+
+print("SSS")
+print(100.25 - 25+10**2/8*2)
+print(2**3)
+print(8//3)
+s = "hello"
+print(s.upper())
+print(s[1])
+print(" " + s[ ::-1 ])
+print(" x" + s[0::2])
+
+a = [1, 3 ]
+print(a)
+a = [1, 2,[ 7, 'hello' ]]
+print(a)
+a
+a[2] [1]  = 'recskas'
+print(a)
+a = [2, 1, 3, 6, 9 ]
+a.sort()
+print(a)
+dic = { '1' : 'alma'}
+dic = { '1' : {'alma': 'körte'} ,'2' : 'dinnye'}
+
+print(dic['1'] ['alma'])
+
+print(dic.keys())
+print(dic.values())
+
+if 2 < 1:
+   print("nagyobb")
+else:
+   print("kisebb")
+li = [2,4,6,6,77, 8 , 9,9, 9]
+li2 = set(li)
+print(li2)
+li2
+
